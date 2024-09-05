@@ -1,0 +1,39 @@
+body {
+    background-color: #FFFBDB;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+img {
+    margin-left: 5%;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    max-width: 20%;
+    height: auto;
+    
+}
+
+h1 {
+    color: #DA7422;
+    font-size: 40px;
+    text-indent: 5%;
+}
+
+em {
+    color: #30362F;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+p {
+    color: #625834;
+    font-size: 18px;
+    text-indent: 7%;
+    margin: -.5px;
+}
+
+a {
+    color: #DA7422;
+    margin-left: 5%;
+}
