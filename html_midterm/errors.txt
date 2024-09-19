@@ -11,7 +11,7 @@ error 9. line 28 - img tag missing alt attribute
 error 10. line 30 - closing img tage is supposed to be a closing a tag
 error 11. line 39 - opening td tag in place of closing one
 error 12. line 45 - missing closing table tag
-error 13. line 46 - wrote out "source" instead of "src"
+error 13. line 46 - wrote out "source" instead of "src", image is a jpg not a png
 error 14. line 46 - error.jpeg should be error.jpg
 error 15. line 48 - text is missing opening and closing <p> tags
 error 16. line 48 - missing s tags for strikethrough text
