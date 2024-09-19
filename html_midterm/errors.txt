@@ -1,0 +1,26 @@
+Bella Consentino & Ava Soares
+error 1. line 1 - no <!DOCTYPE html> at top
+error 2. line 1/4 - two opening <html> tags, and the outer one doesn't have the lang="en" attribute
+error 3. line 7 - no closing head tag
+error 4. line 9 - no closing h1 tag
+error 5. line 11 - no opening p tag
+error 6. line 19 - closing li tag in place of an opening one
+error 7. line 13/24 - opening tag not matching closing tag (24 shouldve been </ol>)
+error 8. line 26 - no closing p tag
+error 9. line 28 - img tag missing alt attribute
+error 10. line 30 - closing img tage is supposed to be a closing a tag
+error 11. line 39 - opening td tag in place of closing one
+error 12. line 45 - missing closing table tag
+error 13. line 46 - wrote out "source" instead of "src"
+error 14. line 46 - error.jpeg should be error.jpg
+error 15. line 48 - text is missing opening and closing <p> tags
+error 16. line 48 - missing s tags for strikethrough text
+error 17. line 50 - p tag doesnt support bgcolor attribute 
+error 18. line 52 - input tag missing slash in front of the closing carrot
+error 19. line 54 - comment is missing the --> to close the commented text
+error 20. line 56 - no closing a tag
+error 21. line 56 - no link inside href attribute
+error 22. line 58 - impropper nesting of tags (closing em tag should go before closing p tag)
+error 23. line 61 - should be dt tag, not li
+error 24. line 62 - should be dd tag, not li
+error 25. line 64 - closing tag should be h2, not h3
