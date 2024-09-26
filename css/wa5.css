@@ -98,3 +98,8 @@ html {
     color: white;
   }
 
+  .card2 h2, .card2 p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+
+
