@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    background-color: black;
+    height: 40px;
+}
+
+li {
+    display: inline;
+    float: inline-end;
+    margin-top: 10px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+}
+
+li a:hover {
+    background-color: darkslategray;
+}
