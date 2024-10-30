@@ -7,10 +7,10 @@ function randomValueFromArray(array){
   return array[random];
 }
 
-let storyText = "It was the dead middle of winter, so :insertx: was confused why it was 94 fahrenheit outside. Nonetheless, they decided to go to :inserty: for the afternoon. Bob arrived shortly after :insertx: and was scared half to death when they saw that :insertx: had :insertz:! Bob tried to run as fast as they could but they weighed 300 pounds, so it was a little difficult.";
+let storyText = "It was the dead middle of winter, so :insertx: was confused why it was 94 fahrenheit outside. Nonetheless, they decided to go to :inserty: for the afternoon. Bob arrived shortly after :insertx:, and was scared half to death when they saw that :insertx: had :insertz:! Bob tried to run as fast as they could but they weighed 300 pounds, so it was a little difficult.";
 let insertX = ["Rick Sanchez", "Spongebob Squarepants", "Britney Spears"];
 let insertY = ["the beach", "Chicken on the Hill", "space"];
-let insertZ = ["dissapeared into thin air", "turned into an eagle and flew away", "stopped dropped and rolled"];
+let insertZ = ["dissapeared into thin air", "turned into an eagle and flew away", "stopped, dropped, and rolled"];
 
 randomize.addEventListener('click', result);
 
