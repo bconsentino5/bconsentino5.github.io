@@ -63,3 +63,8 @@
     grid-row: 3;
     border: 1px solid black;
   }
+
+  button {
+    width: 20vh;
+    height: 20vh;
+  }
