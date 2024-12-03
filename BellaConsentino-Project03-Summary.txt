@@ -1,0 +1,14 @@
+Project 3
+
+(1) Title of your Project: Rick N Morty World
+
+
+(2) Description: Rick and morty in outer space having just come out of the portal. They're on their way to the screaming sun planet. Click the screen to make them switch places.
+
+(4) Citations:
+Sky: https://www.vecteezy.com/photo/10452159-the-panorama-milky-way-galaxy-long-exposure-photograph-with-grain
+    https://www.pngkey.com/detail/u2a9o0i1o0e6t4q8_rick-and-morty-portal-edible-printing-rick-and/
+Rick: https://sketchfab.com/3d-models/rick-rick-and-morty-3c0928c16ddd4e61ab23d0b141648ed4
+Morty: https://sketchfab.com/3d-models/multiversus-morty-37c938a55d464050b7bd53e33847aa14
+Material for planet: https://multiversus.fandom.com/wiki/Sun_Scream
+To understand how to set up the "AFRAME.registerComponent" part of the javascript: https://aframe.io/docs/1.6.0/introduction/javascript-events-dom-apis.html
