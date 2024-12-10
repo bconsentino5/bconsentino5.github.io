@@ -2,7 +2,7 @@ const grid = document.getElementById("grid");
 const btn = document.getElementsByTagName("button");
 let boardState = [];
 let player = "X";
-let level = 3;
+let level = 1;
 
 function draw1() {
   document.getElementById("grid").innerHTML = "";
