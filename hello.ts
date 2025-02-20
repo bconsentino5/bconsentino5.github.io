@@ -1,5 +1,6 @@
 // looking for 5
 const arr1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 cont arr3 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 //               A           B          C
 
@@ -17,13 +18,13 @@ function name(a, b):
     return a+b;
 
 // O(n)
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < n; i++) {
     //some stuff
 }
 
 // O(n^2)
-for (let i = 0; i < 10; i++) {
-    for (let j = 0; j < 10; j++) {
+for (let i = 0; i < n; i++) {
+    for (let j = 0; j < n; j++) {
         //some stuff
     }
 }
@@ -41,7 +42,7 @@ if (n > b) {
 }
 
 // O(n log n)
-for (let i = 0; i < 10; i++) {
+for (let i = 0; i < n; i++) {
     if (n > 5) {
         //blah
     }
@@ -90,10 +91,10 @@ const sum = (arr) => {
     return total;
   };
 
- // A. O(1) B. O(log n) C. O(n) D. O(n log n) E. O(n^2)
+ // A. O(1) B. O(log n) C. O(n) D. O(n log n) E. O(n^2) 
 
 
- function doSomething(n) => {
+ function doSomething(n) {
     const counter = 90;
 
     if (counter >= 70) {
@@ -106,7 +107,7 @@ const sum = (arr) => {
  // A. O(1) B. O(log n) C. O(n) D. O(n log n) E. O(n^2)
 
 // const list = [6, 5, 10, 4, 7, 1, 9, 3, 6, 8];
-// counter = 
+// counter = 0
  function smallestNum(list, counter) {
     currNum = list[counter];
 
@@ -116,4 +117,31 @@ const sum = (arr) => {
     else {
         smallestNum(list, counter + 1);
     }
+ }
+
+
+
+
+// It takes a linked list of numbers and returns the difference between the
+// largest and smallest values in the list. The list contains at least one item, so you don't need
+// to check for an empty list. Each list node has a data and a next field. For example, passing in
+// the list [3, 7, 5, 2, 9] will yield 7, because the max value is 9, min is 2, and 9-2 = 7.
+
+
+ function findRangeInLinkedList(list) { 
+    let maxNum = list.data; 
+    let minNum = list.data;
+    let cursor = list;
+
+    while (cursor) {
+        if (cursor.data > maxNum) {
+            maxNum = cursor.data;
+        }
+        else if (cursor.data < minNum) {
+            minNum = cursor.data;
+        }
+        cursor = cursor.next;
+    }
+
+    return maxNum - minNum;
  }
