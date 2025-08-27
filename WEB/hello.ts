@@ -18,18 +18,20 @@ function name(a, b):
     return a+b;
 
 // O(n)
-for (let i = 0; i < n; i++) {
-    //some stuff
-}
-
-// O(n^2)
-for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
+function blah(n):
+    for (let i = 0; i < n; i++) {
         //some stuff
     }
-}
 
-const n = 5;
+// O(n^2)
+function blah(n):
+    for (let i = 0; i < n; i++) {
+        for (let j = 0; j < n; j++) {
+            //some stuff
+        }
+    }
+
+const n = 4;
 const b = 10;
 
 // O(log n)
@@ -106,6 +108,7 @@ const sum = (arr) => {
 
  // A. O(1) B. O(log n) C. O(n) D. O(n log n) E. O(n^2)
 
+ 
 // const list = [6, 5, 10, 4, 7, 1, 9, 3, 6, 8];
 // counter = 0
  function smallestNum(list, counter) {
